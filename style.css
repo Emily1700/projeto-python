@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+     scroll-behavior: smooth;
+}
+:root{
+    --azul-escuro: #0D1A63;
+    --azul02: #1A2CA3;
+    --azul-claro:#2845D6;
+
+    --fonte-padrao: Arial,Verdana, Helvetica, sans-serif;
+    --fonte-destaque:"Bebas Neue", sans-serif;
+}
+
+body{
+    background-color: rgba(52, 122, 179, 0.404);
+    font-family:var(--fonte-padrao) ;
+    line-height: 2em;
+
+}
+
+header{
+    text-align: center;
+    padding: 2rem;
+    background-image: linear-gradient(to bottom, var(--azul-escuro), var(--azul-claro));
+    color: white;
+}
+header > h1{
+    margin-top: 30px;
+    font-family: var(--fonte-destaque);
+    font-size: 50px;
+}
+header > p{
+    padding-top: 1.5rem;
+    font-size: 20px;
+}
+nav{
+    background-color: var(--azul-claro);
+    padding: 1rem;
+}
+
+nav > a{
+    padding: 1rem;
+    text-decoration: none;
+    color:#e0e3f3 ;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+nav > a:hover{
+    background-color: #132686ad;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    color: white;
+    
+
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    padding: 30px;
+    margin-bottom: 50px ;
+}
+main h2{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+main h3{
+    padding: 20px 0px 10px 0px;
+    font-weight: normal;
+}
+
+main img{
+   width: 100%;
+   max-width:700px;
+   max-height: 450px;
+   padding: 10px 0px;
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom:18px ;
+}
+main p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--azul-escuro);
+    font-weight: bold;
+
+}
+a:hover{
+    text-decoration:underline ;
+    color: var(--azul-claro) ;
+}
+
+strong{
+    color: var(--azul02);
+}
+
+.curiosidades{
+   margin: 35px 10px;
+   padding:0px 20px;
+   background-color: rgba(131, 179, 250, 0.637);
+   border-radius: 8px;
+}
+.titulo-curiosidades {
+    background-color:rgba(36, 99, 194, 0.836);
+    color: white;
+    margin: -3px -19px;
+    padding: 8px;
+    border-top-left-radius:8px ;
+    border-top-right-radius: 8px;
+}
+.curiosidades p{
+    padding-top: 9px;
+    padding-bottom: 12px;
+}
+.curiosidades ul{
+    columns: 2;
+    list-style-position: inside;
+    padding-bottom: 8px;
+    line-height: 2em;
+}
+
+footer{
+    background-color:var(--azul-escuro) ;
+    color: white;
+}
+footer > p{
+    text-align: center;
+    font-size: 0.8rem;
+} 
